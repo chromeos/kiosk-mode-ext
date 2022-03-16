@@ -7,6 +7,16 @@
        "accepts_tls_channel_id": false,
        "matches": [ "*://chromeos.dev/*" ]
     },
+    "content_scripts": [
+      {
+        "matches": ["*://chromeos.dev/*"],
+        "css": ["content.css"],
+        "js": ["content.js"],
+        "all_frames": true,
+        "run_at": "document_idle"
+      }
+    ],
+    "action": {},
     "key": "keygeneratedfrompackagingandinstallingextensioninchromeThisProvidesAStableExtensionId",
     "manifest_version": 3,
     "name": "Restart your kiosk app",
