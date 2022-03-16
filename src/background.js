@@ -15,10 +15,9 @@
  */
 
 chrome.runtime.onMessageExternal.addListener(
-    function(request, _, sendResponse) {
+    function(request, _, _) {
         if (request.methodName == 'callRestart') {
             chrome.runtime.restart();
-            sendResponse({response: "restarted"});
         }
     }
   );

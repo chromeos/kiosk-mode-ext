@@ -5,7 +5,7 @@
     "description": "This restarts your kiosk app. Lucky you!",
     "externally_connectable": {
        "accepts_tls_channel_id": false,
-       "matches": [ "*://hexagonal-numerous-zebu.glitch.me/*" ]
+       "matches": [ "*://chromeos.dev/*" ]
     },
     "key": "keygeneratedfrompackagingandinstallingextensioninchromeThisProvidesAStableExtensionId",
     "manifest_version": 3,

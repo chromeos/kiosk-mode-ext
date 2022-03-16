@@ -1,0 +1,22 @@
+.extension-button {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    margin: 75px;
+    z-index: 1000;
+    background-color: #00208b;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px black;
+  }
+  
+  .button-text {
+  display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
