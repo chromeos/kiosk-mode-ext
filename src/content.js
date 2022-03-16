@@ -1,11 +1,11 @@
 let restartButton = document.createElement('div');
-restartButton.className = 'extension-fab';
-restartButton.id = 'extension-fab';
+restartButton.className = 'extension-button';
+restartButton.id = 'extension-button';
 document.body.appendChild(restartButton);
 
 let buttonText = document.createElement('p');
 buttonText.className = 'button-text';
-buttonText.innerText = 'click me ' + version;
+buttonText.innerText = 'Restart App';
 restartButton.appendChild(buttonText);
 
 const STATIC_EXTENSION_ID = 'mygeneratedid';
