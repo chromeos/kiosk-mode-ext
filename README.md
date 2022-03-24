@@ -12,7 +12,7 @@ This is a sample demonstrating calling kiosk APIs from an extension in kiosk mod
 
 ### manifest.json
 
-The `manifest.json` file describes the extension and provides key metadata about the extension. One important thing to note here is the `externally_connectable` field in the manifest. This field allows websites from that wildcard location `*://hexagonal-numerous-zebu.glitch.me/*` to call the extension. We have a [sample PWA](https://hexagonal-numerous-zebu.glitch.me/) deployed to that URL currently for users that are interested in testing the extension with a PWA.
+The `manifest.json` file describes the extension and provides key metadata about the extension. One important thing to note here is the `externally_connectable` field in the manifest. This field allows websites from that wildcard location `*://chromeos.dev/*` to call the extension. We have a [sample PWA](https://chromeos.dev/) deployed to that URL currently for users that are interested in testing the extension with a PWA.
 
 Note that you will need to replace these 2 fields in the manifest.json file accordingly to match your self hosted extension information:
 - key
