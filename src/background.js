@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-chrome.runtime.onMessageExternal.addListener(
+chrome.runtime.onMessage.addListener(
     function(request, _, _) {
         if (request.methodName == 'callRestart') {
             chrome.runtime.restart();
